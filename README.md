@@ -22,6 +22,8 @@ Agent4API was created to help you quickly orchestrate OpenAPI operations into Ag
 
 We support **one-click import** of Swagger 2.0 and OpenAPI 3.x definitions. Agent4API understands the business capabilities behind the operations and automatically generates and orchestrates the Tools, Skills, and Agents. There is no need to organize every operation, write each Skill, or configure every Agent by hand: start chatting as soon as the import is complete, or integrate the result into an existing application through MCP and OpenAI/Anthropic-compatible APIs.
 
+Agent4API supports LLM providers that expose OpenAI-compatible or Anthropic-compatible APIs, including DeepSeeker, GPT, Claude, and others.
+
 Agent4API follows a simple **one input, three service types** model:
 
 - **One input — Swagger/OpenAPI:** import from a URL or JSON/YAML file, or generate again from an existing API Source.

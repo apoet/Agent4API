@@ -22,6 +22,8 @@ Agent4API 诞生的目的，是帮助你快速将 OpenAPI 接口重新编排成 
 
 我们支持**一键导入** Swagger 2.0 或 OpenAPI 3.x 文档。Agent4API 会理解接口所承载的业务能力，自动完成 Tools、Skills 和 Agents 的生成与编排。你不需要逐个整理接口、编写 Skill 或配置 Agent，导入后即可开始对话，也可以通过 MCP、OpenAI 兼容接口和 Anthropic 兼容接口接入已有应用。
 
+Agent4API 支持接入提供 OpenAI 兼容或 Anthropic 兼容接口的 LLM 供应商，例如 DeepSeeker、GPT、Claude 等。
+
 Agent4API 采用清晰的 **1 个输入、3 类服务** 模型：
 
 - **1 个输入——Swagger/OpenAPI：**支持通过 URL 或 JSON/YAML 文件导入，也可对已有 API 来源再次一键生成。
