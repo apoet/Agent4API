@@ -102,7 +102,7 @@ docker compose up -d
 py -3.12 -m venv .venv
 call .venv\Scripts\activate.bat
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install -e ./backend
 ```
 
 在 Linux 或 macOS shell 中使用 `venv` 和 pip：
@@ -111,7 +111,7 @@ python -m pip install -r requirements.txt
 python3.12 -m venv .venv
 . .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install -e ./backend
 ```
 
 使用 Conda：
