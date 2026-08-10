@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <img src="logo.png" alt="Agent4API logo" width="180">
 </p>
@@ -109,7 +111,7 @@ Windows Command Prompt with `venv` and pip:
 py -3.12 -m venv .venv
 call .venv\Scripts\activate.bat
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install -e ./backend
 ```
 
 Linux or macOS shell with `venv` and pip:
@@ -118,7 +120,7 @@ Linux or macOS shell with `venv` and pip:
 python3.12 -m venv .venv
 . .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install -e ./backend
 ```
 
 Conda:
